@@ -9,8 +9,8 @@ Agora que você já abriu o Figma do projeto, você conseguiu ver o que a empres
 <b>Primeiro dia: ✔</b>
   desenvolver o cabeçalho da aplicação, chamado normalmente de Navbar, que contempla o logo, o menu com as páginas e também os dois botões do canto direito.
 
-<b>Segundo dia: ❔</b>
-
+<b>Segundo dia: ✔</b>
+  desenvolver a primeira seção da sua página, que também pode ser chamada de "cabeçalho".
 <b>Terceiro dia: ❔</b>
 
 <b>Quarto dia: ❔</b>
