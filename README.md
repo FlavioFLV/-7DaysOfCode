@@ -11,7 +11,9 @@ Agora que você já abriu o Figma do projeto, você conseguiu ver o que a empres
 
 <b>Segundo dia: ✔</b>
   desenvolver a primeira seção da sua página, que também pode ser chamada de "cabeçalho".
-<b>Terceiro dia: ❔</b>
+
+<b>Terceiro dia: ✔</b>
+  desenvolver a seção de métricas e resultados da sua página.
 
 <b>Quarto dia: ❔</b>
 
