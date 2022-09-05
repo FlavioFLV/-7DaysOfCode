@@ -10,6 +10,7 @@
     margin: 0;
     padding: 0;
     font-family: "Inter";
+    box-sizing: border-box;
 }
 
 .nav-bar {
@@ -42,20 +43,24 @@
 }
 .buttons a {
     text-decoration: none;
-    font-size: 16px;
     font-weight: 500;
     color: var(--text-color);
 }
-
-.buttons .register {
+.buttons .register, button {
+    padding: 10px 18px;
+    font-size: 16px;
     color: #FFFFFF;
     background-color: var(--main-color);
-    padding: 10px 18px;
     border: 1px solid var(--main-color);
-    box-shadow: 0px 1px 20px rgba(16, 24, 40, 0.05);
     border-radius: 8px;
+    box-shadow: 0 1px 20px rgba(16, 24, 40, 0.05);
+    outline: none;
+    cursor: pointer;
 }
-
+.buttons .register:focus,
+button:focus {
+    background-color: #923636;
+}
 
 .about-us {
     display: flex;
@@ -83,10 +88,11 @@
 }
 
 .metricas-container {
+    height: 288px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 32px;
-    height: 288px;
 }
 .metricas-container div {
     width: 280px;
@@ -103,5 +109,167 @@
 }
 .metricas-container p {
     font-size: 16px;
+    color: var(--text-color);
+}
+.vagas-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 10%;
+}
+.vagas-container .vagas-buttom {
+    width: 125px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+}
+.vagas-container a {
+    text-decoration: none;
+    font-size: 14px;
+    color: var(--main-color);
+    font-weight: 600;
+}
+.vagas-container h3 {
+    font-size: 36px;
+    color: var(--title-color);
+    margin: 16px 0 20px;
+}
+.vagas-container p {
+    font-size: 20px;
+    color: var(--text-color);
+}
+.vagas-container .talents-image {
+    margin-top: 64px;
+    width: 100%;
+}
+.vagas-container .vagas {
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+.vagas-container .vaga {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.vagas-container h4 {
+    font-size: 20px;
+    color: var(--title-color);
+    margin-bottom: 32px;
+}
+.vagas-container .vaga-description {
+    width: 768px;
+    height: 136px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    padding: 24px 24px 28px;
+}
+.vagas-container .vaga-description .vaga-title {
+    font-size: 18px;
+    color: var(--title-color)
+}
+.vagas-container .vaga-description div {
+    display: flex;
+    gap: 24px;
+}
+.vagas-container .vaga-description span {
+    font-size: 16px;
+    color: var(--text-color)
+}
+
+
+.depositions {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 96px;
+}
+.depositions .collaborator-deposition {
+    width: 1216px;
+    height: 404px;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+    text-align: center;
+}
+.depositions h5 {
+    font-size: 14px;
+    color: var(--main-color);
+}
+.depositions h2 {
+    font-size: 36px;
+    color: var(--title-color);
+}
+.depositions .collaborator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.depositions .collaborator img {
+    margin: 16px 0;
+    width: 56px
+}
+.depositions .collaborator .name {
+    font-size: 16px;
+    font-weight: 600;
+}
+.depositions .collaborator .office {
+    font-size: 14px;
+    color: var(--text-color);
+}
+
+footer h2 {
+    font-weight: 600;
+    font-size: 36px;
+}
+footer h3 {
+    font-weight: 400;
+    font-size: 20px;
+    padding: 20px 0 40px;
+    color: var(--text-color);
+}
+footer h6 {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--text-color);
+}
+footer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 96px 0;
+    background-color: #F9FAFB;
+}
+footer .email-register {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+footer .email {
+    width: 360px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    font-size: 16px;
+    padding: 12px 16px;
+    outline: none;
+} footer .email:focus {
+    border: 1.5px solid var(--text-color);
+}
+footer span {
+    font-weight: 400;
+    font-size: 20px;
     color: var(--text-color);
 }
