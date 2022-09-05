@@ -15,10 +15,14 @@ Agora que você já abriu o Figma do projeto, você conseguiu ver o que a empres
 <b>Terceiro dia: ✔</b>
   desenvolver a seção de métricas e resultados da sua página.
 
-<b>Quarto dia: ❔</b>
+<b>Quarto dia: ✔</b>
+  desenvolver a seção de "Estamos procurando por talentos".
 
-<b>Quinto dia: ❔</b>
+<b>Quinto dia: ✔</b>
+  desenvolver a parte talvez mais importante do projeto inteiro, a seção de vagas!
 
-<b>Sexto dia: ❔</b>
+<b>Sexto dia: ✔</b>
+  desenvolver a seção de Depoimentos.
 
-<b>Sétimo dia: ❔</b>
+<b>Sétimo dia: ✔</b>
+  desenvolver a última seção do projeto da página: o rodapé.
