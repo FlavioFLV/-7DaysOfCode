@@ -218,14 +218,15 @@ button:focus {
     align-items: center;
 }
 .depositions .collaborator img {
-    margin: 16px 0;
     width: 56px
 }
 .depositions .collaborator .name {
+    margin-top: 16px;
     font-size: 16px;
     font-weight: 600;
 }
 .depositions .collaborator .office {
+    margin-top: 4px;
     font-size: 14px;
     color: var(--text-color);
 }
