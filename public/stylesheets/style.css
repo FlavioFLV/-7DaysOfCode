@@ -82,7 +82,8 @@ button:focus {
     color: var(--title-color);
 }
 .about-us p {
-    width: 791px;
+    /* width: 791px; */
+    max-width: 50%;
     font-size: 20px;
     color: var(--text-color);
 }
